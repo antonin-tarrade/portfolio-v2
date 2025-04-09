@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import WipHeader from './components/WipHeader';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Work from './components/Work';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Work In Progress</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Site under construction
-        </p>
-        <a
-          className="App-link"
-          href="https://antonin-tarrade.github.io"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Visit my previous website
-        </a>
-      </header>
+      <WipHeader />
+      <AboutMe/>
+      <Projects/>
+      <Work/>
+      <Footer/>
     </div>
+    
   );
 }
 

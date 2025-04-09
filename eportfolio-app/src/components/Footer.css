@@ -1,0 +1,18 @@
+.footer{
+    padding: 1em 0;
+}
+
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
