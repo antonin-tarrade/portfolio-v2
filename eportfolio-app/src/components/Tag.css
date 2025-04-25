@@ -1,0 +1,14 @@
+.tag-container{
+    border: solid;
+    border-radius: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1em;
+}
+
+
+.tag-icon{
+    width: 1.5em;
+    height:1.5em;
+}
