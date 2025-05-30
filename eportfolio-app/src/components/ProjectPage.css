@@ -1,0 +1,48 @@
+.return-container{
+    margin:1em;
+}
+
+.return-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-decoration: none;
+    transition: padding 0.5s ease;
+    padding-left: 1em;
+    gap: 0.5em;
+}
+
+.return-arrow{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5em; 
+    height: 2.5em;
+    color: var(--text-color);
+    transition: opacity 0.2s ease;
+}
+
+.return-text{
+    color: var(--text-color);
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.return-content:hover{
+    padding-left:0em;
+    
+}
+
+.return-content:hover .return-arrow{
+    opacity: 0.7;
+}
+
+
+.return-content:hover .return-text{
+    text-decoration: underline;
+    opacity: 0.7;
+}
+

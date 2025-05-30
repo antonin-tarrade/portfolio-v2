@@ -1,21 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import './Social.css';
-
+import { fetchSvg } from "../utils";
 const Social = ({ name, link, svgPath }) => {
     const [svgContent, setSvgContent] = useState('');
 
     useEffect(() => {
-        const fetchSvg = async () => {
-            try {
-                const response = await fetch(`/icons/${svgPath}`);
-                const svgText = await response.text();
-                setSvgContent(svgText);
-            } catch (error) {
-                console.error(`Error fetching SVG: ${svgPath}`, error);
-            }
-        };
-
-        fetchSvg();
+        const getSvg = async () => {
+            const svg = await fetchSvg(svgPath);
+            setSvgContent(svg);
+        }
+        getSvg();
     }, [svgPath]);
 
     return (
