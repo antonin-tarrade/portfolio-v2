@@ -12,7 +12,6 @@ const ProjectPage = () => {
     const [githubSVG, setGitHubSvgContent] = useState('');
     const [webSVG, setWebSvgContent] = useState('');
 
-
     // Find the project by slug
     const project = projects.find(p => p.slug === slug);
 

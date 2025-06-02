@@ -1,4 +1,7 @@
-const projects = [
+import { slugify } from "../utils";
+
+
+const rawProjects = [
     {
         title : "Project1",
         video: null,
@@ -72,5 +75,12 @@ const projects = [
         link:""
     }
 ];
+
+// Gennerate a slug to be used as an url id
+const projects = rawProjects.map(project => ({
+  ...project,
+  slug: slugify(project.title)
+}));
+
 
 export default projects;

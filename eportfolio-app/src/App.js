@@ -25,7 +25,7 @@ function App() {
               </>
             }
           />
-          <Route path="/project/:title" element={<ProjectPage />} />
+          <Route path="/project/:slug" element={<ProjectPage />} />
         </Routes>
       </div>
     </BrowserRouter>

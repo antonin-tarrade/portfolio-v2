@@ -1,14 +1,18 @@
 .tag-container{
     border: solid;
-    border-radius: 1.5em;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-inline: 1em;
+    padding: 0.5em;
 }
 
 
 .tag-icon{
     width: 1.5em;
     height:1.5em;
+}
+
+.tag-name{
+    margin:0;
 }
