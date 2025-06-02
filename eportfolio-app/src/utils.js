@@ -7,3 +7,12 @@ export const fetchSvg = async (svgPath) => {
         return "";
     }
 };
+
+export function slugify(text) {
+  return text
+    .toString()
+    .toLowerCase()
+    .trim()
+    .replace(/[\s\W-]+/g, '-')
+    .replace(/^-+|-+$/g, ''); 
+}

@@ -1,13 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./ProjectCard.css";
-import Tag from "./Tag.js";
+import Tag from "./Tag";
 
 const ProjectCard = ({ project }) => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(`/project/${project.title}`, { state: { project } });
+        navigate(`/project/${project.slug}`, { state: { project } });
     };
 
     return (
