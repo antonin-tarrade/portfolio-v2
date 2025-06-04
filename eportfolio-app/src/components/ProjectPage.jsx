@@ -33,7 +33,7 @@ const ProjectPage = () => {
         <div>
             <div 
                 className="project-section" 
-                style={{ backgroundImage: `url(/${project.img})` }}
+                style={{ backgroundImage: `url(/images/${project.img})` }}
             >
 
         

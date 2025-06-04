@@ -3,40 +3,39 @@ import { slugify } from "../utils";
 
 const rawProjects = [
     {
-        title : "Project1",
+        title : "Space Travelers",
         video: null,
-        img: "logo512.png",
+        img: "SpaceTravelers.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
         tags : [
-            { icon:"logo192.png", name:"tag1" },
-            { icon:"logo192.png", name:"tag2" }
+            { icon:"Unity.png", name:"Unity" },
+            { icon:"cs.png", name:"C#" }
         ],
-        github:"https://github.com/antonin-tarrade",
-        link:"https://antonin-tarrade.dev"
-    },
-    {
-        title : "Project2",
-        video: null,
-        img: "logo512.png",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
-        tags : [
-            { icon:"logo192.png", name:"tag1" },
-            { icon:"logo192.png", name:"tag2" }
-        ],
-        github:"https://github.com/antonin-tarrade",
+        github:"https://github.com/antonin-tarrade/Project-ChristmasTravelers",
         link:""
     },
     {
-        title : "Project3",
+        title : "Penguin Survivors",
         video: null,
-        img: "logo512.png",
+        img: "PenguinSurvivors.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
         tags : [
-            { icon:"logo192.png", name:"tag1" },
-            { icon:"logo192.png", name:"tag2" }
+            { icon:"Unity.png", name:"Unity" },
+            { icon:"cs.png", name:"C#" }
         ],
-        github:"https://github.com/antonin-tarrade",
+        github:"https://github.com/antonin-tarrade/ProjectPenguin",
         link:""
+    },
+    {
+        title : "SausageSerenity",
+        video: null,
+        img: "SausageSerenity.png",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+        tags : [
+            { icon:"godot.png", name:"Godot" },
+        ],
+        github:"https://github.com/antonin-tarrade/SausageSerenity",
+        link:"https://lighar.itch.io/sausageserenity"
     },
     {
         title : "Project4",

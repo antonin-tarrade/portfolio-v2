@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
     return (
         <div className="card-container" onClick={handleClick} style={{ cursor: "pointer" }}>
             <div className="card-preview">
-                <img className="card-image" src={project.img} alt={"image of" + project.name}/>
+                <img className="card-image" src={`/images/${project.img}`} alt={"image of" + project.name}/>
             </div>
             <div className="card-info">
                 <h2>{project.title}</h2>
