@@ -38,39 +38,46 @@ const rawProjects = [
         link:"https://lighar.itch.io/sausageserenity"
     },
     {
-        title : "Project4",
+        title : "Rapport TAV",
         video: null,
-        img: "logo512.png",
+        img: "TAV.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
         tags : [
-            { icon:"logo192.png", name:"tag1" },
-            { icon:"logo192.png", name:"tag2" }
+            { icon:"matlab.png", name:"Matlab" },
+            { icon:"react.png", name:"React" },
+            { icon:"python.png", name:"Python" },
+            { icon:"js.png", name:"JavaScript" },
+            { icon:"flask.png", name:"Flask" }
+
         ],
-        github:"https://github.com/antonin-tarrade",
+        github:"https://github.com/antonin-tarrade/Project-TAV",
         link:""
     },
     {
-        title : "Project5",
+        title : "School Portfolio",
         video: null,
-        img: "logo512.png",
+        img: "eportfolio.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
         tags : [
-            { icon:"logo192.png", name:"tag1" },
-            { icon:"logo192.png", name:"tag2" }
+            { icon:"svelte.png", name:"Svelte" },
+            { icon:"js.png", name:"JavaScript" }
         ],
-        github:"https://github.com/antonin-tarrade",
+        github:"https://github.com/antonin-tarrade/antonin-tarrade.github.io",
         link:""
     },
     {
-        title : "Project6",
+        title : "YouLearn",
         video: null,
-        img: "logo512.png",
+        img: "YouLearn.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
         tags : [
-            { icon:"logo192.png", name:"tag1" },
-            { icon:"logo192.png", name:"tag2" }
+            { icon:"react.png", name:"React" },
+            { icon:"js.png", name:"JavaScript" },
+            { icon:"python.png", name:"Python" },
+            { icon:"jboss.png", name:"JBoss" }
+
         ],
-        github:"https://github.com/antonin-tarrade",
+        github:"https://github.com/antonin-tarrade/YouLearn",
         link:""
     }
 ];
