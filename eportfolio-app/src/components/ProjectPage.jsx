@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { fetchSvg } from "../utils";
 import projects from "../data/projects";
 import "./ProjectPage.css";
-import Tag from "./Tag";
+import Tag from "./Tag.jsx";
 
 const ProjectPage = () => {
     const { slug } = useParams();
@@ -33,7 +33,7 @@ const ProjectPage = () => {
         <div>
             <div 
                 className="project-section" 
-                style={{ backgroundImage: `url(/images/${project.img})` }}
+                style={{ backgroundImage: `url(${project.cover})` }}
             >
 
         
@@ -56,8 +56,8 @@ const ProjectPage = () => {
                     <p className="project-description">{project.description}</p>
                     {project.tags && (
                         <div className="project-tags">
-                            {project.tags.map((tag, index) => (
-                                <Tag key={index} icon={tag.icon} name={tag.name} />
+                            {project.tags.map((tagName) => (
+                                <Tag key={tagName} icon={`/tags/${tagName}.png`} name={tagName} />
                             ))}
                         </div>
                     )}

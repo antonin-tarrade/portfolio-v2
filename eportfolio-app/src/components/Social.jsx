@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Social.css';
-import { fetchSvg } from "../utils";
+import { fetchSvg } from "../utils.js";
 const Social = ({ name, link, svgPath }) => {
     const [svgContent, setSvgContent] = useState('');
 

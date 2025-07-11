@@ -1,5 +1,5 @@
 import React from "react";
-import Social from "./Social";
+import Social from "./Social.jsx";
 import "./Footer.css";
 
 const socials = [

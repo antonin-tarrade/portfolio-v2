@@ -1,5 +1,5 @@
 import React from "react";
-import WipPlaceHolder from "./WipPlaceHolder";
+import WipPlaceHolder from "./WipPlaceHolder.jsx";
 
 const Work = () => {
     return (

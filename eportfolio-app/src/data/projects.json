@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Graph Theory Project",
+    "slug": "graph-theory-project",
+    "cover": "/projects/graph-theory-project/cover.png",
+    "images": [],
+    "videos": [],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "tags": [
+      "unity",
+      "cs"
+    ],
+    "github": "https://github.com/antonin-tarrade/Projet-Graphe"
+  },
+  {
+    "title": "Penguin Survivors",
+    "slug": "penguin-survivors",
+    "cover": "/projects/penguin-survivors/cover.png",
+    "images": [],
+    "videos": [],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "tags": [
+      "unity",
+      "cs"
+    ],
+    "github": "https://github.com/antonin-tarrade/ProjectPenguin"
+  },
+  {
+    "title": "Rapport Tav",
+    "slug": "rapport-tav",
+    "cover": "/projects/rapport-tav/cover.png",
+    "images": [],
+    "videos": [],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "tags": [
+      "matlab",
+      "react",
+      "python",
+      "javascript",
+      "flask"
+    ],
+    "github": "https://github.com/antonin-tarrade/Project-TAV"
+  },
+  {
+    "title": "Sausage Serenity",
+    "slug": "sausage-serenity",
+    "cover": "/projects/sausage-serenity/cover.png",
+    "images": [],
+    "videos": [],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "tags": [
+      "godot"
+    ],
+    "github": "https://github.com/antonin-tarrade/SausageSerenity",
+    "link": "https://lighar.itch.io/sausageserenity"
+  },
+  {
+    "title": "School Portfolio",
+    "slug": "school-portfolio",
+    "cover": "/projects/school-portfolio/cover.png",
+    "images": [],
+    "videos": [],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "tags": [
+      "svelte",
+      "javascript"
+    ],
+    "github": "https://github.com/antonin-tarrade/antonin-tarrade.github.io",
+    "link": "https://antonin-tarrade.github.io"
+  },
+  {
+    "title": "Space Travelers",
+    "slug": "space-travelers",
+    "cover": "/projects/space-travelers/cover.jpg",
+    "images": [],
+    "videos": [],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "tags": [
+      "unity",
+      "cs"
+    ],
+    "github": "https://github.com/antonin-tarrade/Project-ChristmasTravelers"
+  },
+  {
+    "title": "Youlearn",
+    "slug": "youlearn",
+    "cover": "/projects/youlearn/cover.png",
+    "images": [],
+    "videos": [],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "tags": [
+      "react",
+      "javascript",
+      "python",
+      "jboss"
+    ],
+    "github": "https://github.com/antonin-tarrade/YouLearn"
+  }
+]

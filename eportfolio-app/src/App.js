@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import WipHeader from './components/WipHeader';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import Work from './components/Work';
-import Footer from './components/Footer';
-import ProjectPage from './components/ProjectPage';
+import WipHeader from './components/WipHeader.jsx';
+import AboutMe from './components/AboutMe.jsx';
+import Projects from './components/Projects.jsx';
+import Work from './components/Work.jsx';
+import Footer from './components/Footer.jsx';
+import ProjectPage from './components/ProjectPage.jsx';
 
 function App() {
   return (
