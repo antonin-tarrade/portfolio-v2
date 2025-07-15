@@ -2,7 +2,8 @@
   {
     "title": "Graph Theory Project",
     "slug": "graph-theory-project",
-    "cover": "/projects/graph-theory-project/cover.png",
+    "cover": "projects/School/graph-theory-project/cover.png",
+    "category": "School",
     "images": [],
     "videos": [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
@@ -15,7 +16,8 @@
   {
     "title": "Penguin Survivors",
     "slug": "penguin-survivors",
-    "cover": "/projects/penguin-survivors/cover.png",
+    "cover": "projects/Games/penguin-survivors/cover.png",
+    "category": "Games",
     "images": [],
     "videos": [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
@@ -28,7 +30,8 @@
   {
     "title": "Rapport Tav",
     "slug": "rapport-tav",
-    "cover": "/projects/rapport-tav/cover.png",
+    "cover": "projects/School/rapport-tav/cover.png",
+    "category": "School",
     "images": [],
     "videos": [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
@@ -44,7 +47,8 @@
   {
     "title": "Sausage Serenity",
     "slug": "sausage-serenity",
-    "cover": "/projects/sausage-serenity/cover.png",
+    "cover": "projects/Games/sausage-serenity/cover.png",
+    "category": "Games",
     "images": [],
     "videos": [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
@@ -57,7 +61,8 @@
   {
     "title": "School Portfolio",
     "slug": "school-portfolio",
-    "cover": "/projects/school-portfolio/cover.png",
+    "cover": "projects/School/school-portfolio/cover.png",
+    "category": "School",
     "images": [],
     "videos": [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
@@ -71,7 +76,8 @@
   {
     "title": "Space Travelers",
     "slug": "space-travelers",
-    "cover": "/projects/space-travelers/cover.jpg",
+    "cover": "projects/Games/space-travelers/cover.jpg",
+    "category": "Games",
     "images": [],
     "videos": [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
@@ -84,7 +90,8 @@
   {
     "title": "Youlearn",
     "slug": "youlearn",
-    "cover": "/projects/youlearn/cover.png",
+    "cover": "projects/School/youlearn/cover.png",
+    "category": "School",
     "images": [],
     "videos": [],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",

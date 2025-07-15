@@ -5,7 +5,7 @@ import Tag from "./Tag.jsx";
 
 const ProjectCard = ({ project }) => {
     const navigate = useNavigate();
-
+    
     const handleClick = () => {
         navigate(`/project/${project.slug}`);
     };
