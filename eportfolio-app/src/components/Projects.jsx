@@ -6,7 +6,7 @@ import { useState } from "react";
 const Projects = () => {
 
   const [filteredProjects, setFilteredProjects] = useState(projects);
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState('All');
 
 
   const categoryList = ['All', ...new Set(projects.map(p => p.category))];

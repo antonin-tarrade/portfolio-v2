@@ -9,12 +9,9 @@
                     <h2 className="name-subtitle">Student in Computer Science, Aspiring Game developer & Software developer</h2>
                 </div>
                 <div className="about"id="about">
-                    <p className="about-text"> I am a student in Computer Science at ENSEEIHT, France. I am currently in my second year of Engineer's degree.
-                    
-                    Passionate about video games since childhood and president of the video game development club of my school, I have been learning how to develop games for almost 2 years (and playing for more than 15 ).
-                    I am also particularly interested in software and web development.
+                    <p className="about-text"> Currently completing my final year at ENSEEIHT (Toulouse, France), I am passionate about web technologies, 3D software making, and game development.
                
-                    I am currently looking for a 6 months internship in the field of video games or software development to explore their respective professional world, as well as gain more experience.</p>
+                    I am actively seeking a 6-month software development internship where I can apply my skills, gain hands-on experience, and contribute to innovative and impactful projects.</p>
                 </div>
 
                 <div className="project-button">

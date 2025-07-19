@@ -1,6 +1,6 @@
 .tag-container{
-    border: solid;
-    border-radius: 20px;
+    border: solid 0.15em;
+    border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +12,7 @@
 .tag-icon{
     width: 1.5em;
     height:1.5em;
+    object-fit: scale-down;
 }
 
 .tag-name{

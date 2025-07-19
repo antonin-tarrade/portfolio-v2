@@ -4,6 +4,7 @@
   --accent-color: #50E3C2;
   --background-color: #1A1A2E;
   --text-color: #FFFFFF;
+  --background-image: "/images/patterns/plus.png"
 }
 
 html, body {
@@ -34,3 +35,5 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+

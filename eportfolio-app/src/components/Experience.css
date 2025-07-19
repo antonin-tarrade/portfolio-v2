@@ -1,0 +1,76 @@
+
+.experience-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 4em;
+}
+
+.experience-point{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap : 3em;
+    width: 60%;
+}
+
+.dot{
+    width: 1em;
+    height: 1em;
+    border : solid white;
+    background-color: white;
+    border-radius: 50%;   
+}
+
+.experience-tags{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.experience-container{
+    border: solid var(--primary-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding : 0.5em 1em 0.5em 1em;
+    margin :2em 7em 2em 5em;
+    width: 100%;
+
+}
+
+.experience-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap : 1em;
+}
+
+.experience-company{
+    width: 2em;
+}
+
+.experience-logo{
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    object-fit: contain;
+    background-color: white;
+}
+
+.resume-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 0.5em;
+}
+
+.location-icon{
+    width: 1.5em;
+    height: 1.5em;
+}

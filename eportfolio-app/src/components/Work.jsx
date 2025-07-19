@@ -1,12 +1,19 @@
 import React from "react";
-import WipPlaceHolder from "./WipPlaceHolder.jsx";
-
+import Experience from "./Experience";
+import experiences from "../data/experiences.json"
+import "./Work.css"
 const Work = () => {
     return (
 
-        <div>
-            <h1>Work experiences</h1>
-            <WipPlaceHolder/>
+        <div className="work-section">
+            <h1 className="work-title">Work experiences</h1>
+            <div className="work-container">
+
+                {experiences.map(experience => (
+                    
+                        <Experience key={experience.company} experience={experience} />
+                    ))}
+            </div>
         </div>
     )
 }
