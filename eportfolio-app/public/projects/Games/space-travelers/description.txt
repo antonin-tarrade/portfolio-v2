@@ -1,1 +1,1 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.
+In this game, two players play against each others, as the aliens vs the astronauts, competiting for the holy chicken. Each player chan choose X different character to play and will play turn by turn. Each round the replays of the previous ones are played and you can interact with them. The goal of the game is to be the players with most chicken captured at the end of the game.

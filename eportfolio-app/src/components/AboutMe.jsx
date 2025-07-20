@@ -17,7 +17,7 @@
                 <div className="project-button">
                     <a
                         className="project-scroll-link"
-                        href=""
+                        href="#projects-section"
                     >
                         My projects
                     </a>

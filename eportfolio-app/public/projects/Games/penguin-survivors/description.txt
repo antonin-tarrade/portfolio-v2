@@ -1,1 +1,1 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.
+This game project originated from a "Pass the game" Game Jam organized by my school game dev club. The goal of the game is to survive each wave of enemy penguins, by shooting snowballs at them.

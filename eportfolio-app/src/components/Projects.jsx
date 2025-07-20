@@ -22,7 +22,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="projects-section">
+    <div className="projects-section" id="projects-section">
         <h1 className="projects-title">My Projects</h1>
         <div className="category-buttons">
             {categoryList.map(category => (

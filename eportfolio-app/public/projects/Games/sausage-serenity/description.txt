@@ -1,1 +1,1 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.
+This game was made as a participation of the Global Game Jam 2024. The theme of this yeear was Make me laugh. In this game you play as a sausage dog and wonder in a ciy filled with depression. As you make your way through the city, you'll meet various characters and have to respond to their requests to restore their laughter. The goal of the game is to make the city a better place.

@@ -4,9 +4,14 @@
     "slug": "graph-theory-project",
     "cover": "projects/School/graph-theory-project/cover.png",
     "category": "School",
-    "images": [],
-    "videos": [],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "images": [
+      "projects/School/graph-theory-project/images/graph-project-colored.png",
+      "projects/School/graph-theory-project/images/graph-project.png"
+    ],
+    "videos": [
+      "projects/School/graph-theory-project/videos/graph-project.mp4"
+    ],
+    "description": "This project is made for the Graph theory course of my school. The goal is to visualize and annalyse the graph representing a cluster of satellites. For this project, the choice of the tools was free. I chose to use Unity in the goal of better representing the situation and expand my knowledge on the engine.",
     "tags": [
       "unity",
       "cs"
@@ -19,8 +24,10 @@
     "cover": "projects/Games/penguin-survivors/cover.png",
     "category": "Games",
     "images": [],
-    "videos": [],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "videos": [
+      "projects/Games/penguin-survivors/videos/project-penguin.mp4"
+    ],
+    "description": "This game project originated from a \"Pass the game\" Game Jam organized by my school game dev club. The goal of the game is to survive each wave of enemy penguins, by shooting snowballs at them.",
     "tags": [
       "unity",
       "cs"
@@ -50,8 +57,10 @@
     "cover": "projects/Games/sausage-serenity/cover.png",
     "category": "Games",
     "images": [],
-    "videos": [],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "videos": [
+      "projects/Games/sausage-serenity/videos/Sausage-serenity.mp4"
+    ],
+    "description": "This game was made as a participation of the Global Game Jam 2024. The theme of this yeear was Make me laugh. In this game you play as a sausage dog and wonder in a ciy filled with depression. As you make your way through the city, you'll meet various characters and have to respond to their requests to restore their laughter. The goal of the game is to make the city a better place.",
     "tags": [
       "godot"
     ],
@@ -79,8 +88,10 @@
     "cover": "projects/Games/space-travelers/cover.jpg",
     "category": "Games",
     "images": [],
-    "videos": [],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.",
+    "videos": [
+      "projects/Games/space-travelers/videos/Space-Travelers.mp4"
+    ],
+    "description": "In this game, two players play against each others, as the aliens vs the astronauts, competiting for the holy chicken. Each player chan choose X different character to play and will play turn by turn. Each round the replays of the previous ones are played and you can interact with them. The goal of the game is to be the players with most chicken captured at the end of the game.",
     "tags": [
       "unity",
       "cs"

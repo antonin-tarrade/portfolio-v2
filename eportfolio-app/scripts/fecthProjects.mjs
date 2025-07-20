@@ -11,21 +11,22 @@ const outputFile = path.join(__dirname, '../src/data/projects.json');
 function getProjectData(folderName,folderCategory,folderPath) {
   
   // Cover image URL
+  const projectsPath = folderPath.split("public/")[1];
   const cover = fs.readdirSync(folderPath).find(f => /^cover\.(png|jpg|jpeg|webp)$/i.test(f));
-  const coverPublicPath = path.join(folderPath,cover).split("public/")[1];
+  const coverPublicPath = path.join(projectsPath,cover);
 
   // Additional images
   const imagesDir = path.join(folderPath, 'images');
   const images = fs.existsSync(imagesDir)
     ? fs.readdirSync(imagesDir).filter(f => /\.(png|jpg|jpeg|webp)$/i.test(f))
-      .map(img => `/projects/${folder}/images/${img}`)
+      .map(img => `${projectsPath}/images/${img}`)
     : [];
 
   // Additional videos
   const videosDir = path.join(folderPath, 'videos');
   const videos = fs.existsSync(videosDir)
     ? fs.readdirSync(videosDir).filter(f => /\.(mp4|webm|mov)$/i.test(f))
-      .map(video => `/projects/${folder}/videos/${video}`)
+      .map(video => `${projectsPath}/videos/${video}`)
     : [];
 
   // Description
