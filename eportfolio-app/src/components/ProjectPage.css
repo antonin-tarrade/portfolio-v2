@@ -4,21 +4,28 @@
 }
 
 .project-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 1em;
     margin-bottom: 2em;
     position: relative;
     overflow: hidden;
     padding: 1em;
+    margin: 0;
+    z-index: 0;
 }
 .project-section::before {
     content: "";
     position: absolute;
-    inset: 0;
+    top: -15px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
     z-index: 0;
     background-image: inherit;
     background-size: cover;
@@ -26,18 +33,31 @@
     background-repeat: no-repeat;
     filter: blur(5px);
     pointer-events: none;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
     background-blend-mode: darken;
 }
 
+.project-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: 
+        linear-gradient(to bottom, rgba(26, 26, 46, 0.7), transparent 15%),
+        linear-gradient(to top, var(--background-color), transparent 30%);
+}
 .project-section > * {
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
+
 
 .return-container{
     margin:1em;
-    padding-bottom: 10em;
+    /* padding-bottom: 10em; */
+    display: flex;
+    justify-content: flex-start;
 }
 
 .return-content{
@@ -61,6 +81,11 @@
     height: 2.5em;
     color: var(--text-color);
     transition: opacity 0.2s ease;
+}
+
+.return-arrow svg{
+    width: 2.5em; 
+    height: 2.5em;
 }
 
 .return-text{
@@ -156,7 +181,9 @@
 
 
 .seemore-container{
-    margin:1em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
 }
 
 .seemore-content{
@@ -166,7 +193,7 @@
     justify-content: center;
     height: 3em;
     text-decoration: none;
-    transition: padding 0.5s ease;
+    transition: transform 0.5s ease;
 }
 
 .seemore-arrow{  
@@ -179,15 +206,21 @@
     transition: opacity 0.2s ease;
 }
 
+.seemore-arrow svg{
+    width: 2.5em; 
+    height: 2.5em;
+}
+
 .seemore-text{
     margin: 0;
     color: var(--text-color);
     opacity: 1;
     transition: opacity 0.2s ease;
+
 }
 
 .seemore-content:hover{
-    padding-top:1em;
+    transform: translateY(1em)
 }
 
 .seemore-content:hover .seemore-arrow{
@@ -200,11 +233,9 @@
     opacity: 0.7;
 }
 
-.showcase-title{
-    margin-left: 1em;
-}
+
 .project-showcase{
-    margin: 1em;
+    margin: 0 2em;;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;

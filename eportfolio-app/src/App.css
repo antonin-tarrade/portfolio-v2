@@ -4,16 +4,14 @@
   --accent-color: #50E3C2;
   --background-color: #1A1A2E;
   --text-color: #FFFFFF;
-  --background-image: "/images/patterns/plus.png"
+  --pattern-url: url("../public/images/patterns/triple.png");
 }
 
 html, body {
     background: var(--background-color); 
-    height: 100%;
+    z-index: -2;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     scroll-behavior: smooth;
 }
 
@@ -22,19 +20,25 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
 }
 
-#root {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
 
 .App {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
 }
 
 
+.App::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:var(--pattern-url) repeat;
+    opacity: 0.035;
+    filter: invert();
+    pointer-events: none;
+    z-index: -1;
+}

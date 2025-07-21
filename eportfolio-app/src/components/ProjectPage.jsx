@@ -45,7 +45,7 @@ const ProjectPage = () => {
                         href="/#"
                         onClick={e => {
                             e.preventDefault();
-                            navigate(-1);
+                            navigate('/');
                         }}
                     >
                     <div className="return-arrow" dangerouslySetInnerHTML={{ __html: leftArrowSVG }} />
@@ -65,33 +65,33 @@ const ProjectPage = () => {
                     )}
                 </div>
 
+                <div>
+                    <hr className="project-separator" />
+                    <div className="project-links">
+                        {project.link && 
+                            <a className="project-link"href={project.link}> 
 
-                <hr className="project-separator" />
 
-                <div className="project-links">
-                    {project.link && 
-                        <a className="project-link"href={project.link}> 
-
-
-                        <div className="link-icon" dangerouslySetInnerHTML={{ __html: webSVG }} />
-                        
-                        See Project
-                        
-                        </a>
-                    }
-                
+                            <div className="link-icon" dangerouslySetInnerHTML={{ __html: webSVG }} />
+                            
+                            See Project
+                            
+                            </a>
+                        }
                     
-                    {project.github && 
-                        <a className="project-link"href={project.github}> 
                         
+                        {project.github && 
+                            <a className="project-link"href={project.github}> 
+                            
 
-                        <div className="link-icon" dangerouslySetInnerHTML={{ __html: githubSVG }} />
+                            <div className="link-icon" dangerouslySetInnerHTML={{ __html: githubSVG }} />
 
-                        See Source Code
+                            See Source Code
 
-                        </a>
-                    }
+                            </a>
+                        }
 
+                    </div>
                 </div>
                 <div className="seemore-container">
                     <a
@@ -103,7 +103,7 @@ const ProjectPage = () => {
                     </a>
                 </div>  
             </div>
-            <h1 className="showcase-title">More of this project</h1>
+            
             <div className="project-showcase" id="showcase">
                     {project.videos.map(
                             (v,index) => 

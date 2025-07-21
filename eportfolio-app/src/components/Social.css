@@ -23,6 +23,11 @@
     margin-right: 0.5em;
 }
 
+.social svg{
+    width: 2.5em; 
+    height: 2.5em;
+}
+
 .social p {
     font-size: 1em;
     margin-right: 0.5em;
