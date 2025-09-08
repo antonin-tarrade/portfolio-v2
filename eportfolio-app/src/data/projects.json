@@ -1,5 +1,27 @@
 [
   {
+    "title": "3DFlight Software Visualization",
+    "slug": "3dflight-software-visualization",
+    "cover": "projects/Work/3DFlight-software-visualization/cover.png",
+    "category": "Work",
+    "images": [],
+    "videos": [
+      "projects/Work/3DFlight-software-visualization/videos/End.mp4",
+      "projects/Work/3DFlight-software-visualization/videos/Intro.mp4",
+      "projects/Work/3DFlight-software-visualization/videos/SCAO.mp4",
+      "projects/Work/3DFlight-software-visualization/videos/Tutorial.mp4"
+    ],
+    "description": "Development of an interactive 3D application with the aim of promoting the role of a satellite flight software for external and internal communications.\\n Simultaneously worked on a Proof of Concept for 3D post mortem visualisations of flight software interactions.",
+    "tags": [
+      "Unity",
+      "cs",
+      "blender",
+      "Gitlab",
+      "artifactory"
+    ],
+    "link": "https://cnes.fr/projets/kosmos"
+  },
+  {
     "title": "Graph Theory Project",
     "slug": "graph-theory-project",
     "cover": "projects/School/graph-theory-project/cover.png",

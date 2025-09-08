@@ -1,9 +1,16 @@
 import "./Experience.css"
 import Tag from "./Tag.jsx";
-
+import { useNavigate } from "react-router-dom";
 
 
 const Experience = ({experience}) => {
+     const navigate = useNavigate();
+
+    const handleClick = (projectslug) => {
+        navigate(`/project/${projectslug}`);
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        document.body.scrollTop = 0; // For Safari
+    };
  
     return (
         <div className="experience-section">
@@ -31,6 +38,14 @@ const Experience = ({experience}) => {
                             return (
                                 <Tag key={tagName} icon={`/tags/${tagName}.png`} name={tagName} />
                             );
+                        })}
+                    </div>
+                )}
+                {experience.linkedProjects && (
+                    <div>
+                        <p>Linked projects :</p>
+                        {experience.linkedProjects.map((projectName) => {
+                            return <button className="project-button" onClick={()=> handleClick(projectName)}>{projectName}</button>
                         })}
                     </div>
                 )}
