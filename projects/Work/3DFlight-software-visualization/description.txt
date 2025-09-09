@@ -1,0 +1,1 @@
+Development of an interactive 3D application with the aim of promoting the role of a satellite flight software for external and internal communications.\n Simultaneously worked on a Proof of Concept for 3D post mortem visualisations of flight software interactions.
