@@ -3,36 +3,58 @@ import "./Timeline.css";
 import Experience from "./Experience.jsx";
 
 const Timeline = ({ experiences }) => {
-  const lineRef = useRef(null);
   const containerRef = useRef(null);
-  const [scale, setScale] = useState(0);
+  const firstDotRef = useRef(null);
+  const lastDotRef = useRef(null);
+  const [lineStyle, setLineStyle] = useState({ top: 0, left: 0, height: 0, scale: 0 });
 
   useEffect(() => {
     const onScroll = () => {
-      if (!containerRef.current || !lineRef.current) return;
-      const rect = containerRef.current.getBoundingClientRect();
+      if (!containerRef.current || !firstDotRef.current || !lastDotRef.current) return;
+
+      const containerRect = containerRef.current.getBoundingClientRect();
+      const firstDotRect = firstDotRef.current.getBoundingClientRect();
+      const lastDotRect = lastDotRef.current.getBoundingClientRect();
+
+      // Calculate top and left relative to the container
+      const top = firstDotRect.top - containerRect.top + firstDotRect.height / 2;
+      const left = firstDotRect.left - containerRect.left + firstDotRect.width / 2 - 2; // -2 for half line width
+      const height = lastDotRect.top - firstDotRect.top;
+
+      // Scroll progress calculation
       const windowHeight = window.innerHeight;
-      const totalHeight = rect.height;
-      const offset = 200;
-      const visible = Math.min(windowHeight - rect.top + offset, totalHeight);
-      const progress = Math.max(0, Math.min(visible / totalHeight, 1));
-      setScale(progress);
+      const visible = Math.min(windowHeight - containerRect.top + 100, height);
+      const progress = Math.max(0, Math.min(visible / height, 1));
+
+      setLineStyle({ top, left, height, scale: progress });
     };
 
     window.addEventListener("scroll", onScroll);
+    window.addEventListener("resize", onScroll);
     onScroll();
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, [experiences.length]);
 
   return (
     <div className="timeline-container" ref={containerRef}>
       <div
-        ref={lineRef}
         className="timeline-line"
-        style={{ transform: `scaleY(${scale})` }}
+        style={{
+          top: `${lineStyle.top}px`,
+          left: `${lineStyle.left}px`,
+          height: `${lineStyle.height}px`,
+          transform: `scaleY(${lineStyle.scale})`,
+        }}
       />
       {experiences.map((exp, idx) => (
-        <Experience key={idx} experience={exp} />
+        <Experience
+          key={idx}
+          experience={exp}
+          ref={idx === 0 ? firstDotRef : idx === experiences.length - 1 ? lastDotRef : null}
+        />
       ))}
     </div>
   );

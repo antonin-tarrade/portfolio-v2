@@ -1,9 +1,10 @@
+import React, { forwardRef } from "react";
 import "./Experience.css"
 import Tag from "./Tag.jsx";
 import { useNavigate } from "react-router-dom";
 
 
-const Experience = ({experience}) => {
+const Experience = forwardRef(({ experience }, ref) => {
      const navigate = useNavigate();
 
     const handleClick = (projectslug) => {
@@ -15,7 +16,7 @@ const Experience = ({experience}) => {
     return (
         <div className="experience-section">
             <div className="experience-point">
-                <span className="dot"/>
+                <span className="dot" ref={ref}/>
                 <div className="experience-header">
                     <img className="experience-logo" src={`icons/${experience.logo}`} alt={experience.company + " logo" }/>
                     <h1 className="experience-company">{experience.company}</h1> 
@@ -52,7 +53,7 @@ const Experience = ({experience}) => {
             </div>
         </div>
     )
-}
+})
 
 
 
