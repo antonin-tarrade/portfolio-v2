@@ -16,12 +16,10 @@ const Timeline = ({ experiences }) => {
       const firstDotRect = firstDotRef.current.getBoundingClientRect();
       const lastDotRect = lastDotRef.current.getBoundingClientRect();
 
-      // Calculate top and left relative to the container
       const top = firstDotRect.top - containerRect.top + firstDotRect.height / 2;
-      const left = firstDotRect.left - containerRect.left + firstDotRect.width / 2 - 2; // -2 for half line width
+      const left = firstDotRect.left - containerRect.left + firstDotRect.width / 2 - 2;
       const height = lastDotRect.top - firstDotRect.top;
 
-      // Scroll progress calculation
       const windowHeight = window.innerHeight;
       const visible = Math.min(windowHeight - containerRect.top + 100, height);
       const progress = Math.max(0, Math.min(visible / height, 1));
