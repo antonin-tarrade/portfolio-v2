@@ -2,7 +2,6 @@
      {
         "company" : "CNES",
         "title" : "Unity3D Developper",
-        "type" : "Internship",  
         "location" : "Toulouse, France",
         "description" : "Development of an interactive 3D application with the aim of promoting the role of a satellite flight software for external and internal communications.\n Simultaneously worked on a Proof of Concept for 3D post mortem visualisations of flight software interactions.",
         "logo": "cnes.png",
@@ -22,7 +21,6 @@
     {
         "company" : "Airbus",
         "title" : "App Developper",
-        "type" : "Internship",
         "location" : "Toulouse, France",
         "description" : "Developement of a supplier management app to centralize contacts and streamline their access across web and mobile.\n Redesigned relational databases to improve structure, integrity, and scalability within the application.",
         "logo": "airbus.png",
@@ -37,7 +35,6 @@
     {
         "company" : "IRIT",
         "title" : "Software Developper",
-        "type" : "Internship",
         "location" : "Toulouse, France",
         "description" : "Development of a Python-based tool to generate multiple-choice quizzes across different platforms from the same entry.\n Used OOP principles and Mako templates to ensure strong modularity, clean code structure, and flexible output formatting.",
         "logo": "irit.png",

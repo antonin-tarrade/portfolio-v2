@@ -24,15 +24,14 @@ const Experience = forwardRef(({ experience }, ref) => {
             </div>
             <div className="experience-container">
                 <div className="resume-header">
-                    <h1>{experience.title}</h1>
+                    <h1 className="experience-title">{experience.title}</h1>
                     <div className="resume-location">
                         <img className="location-icon" src="icons/pin.svg" alt="pin icon" />
                         <p>{experience.location}</p>
                     </div>
                 </div>
-                <h3>{`${experience.start} - ${experience.end}`}</h3>
-                <h2>{experience.type}</h2>
-                <p>{experience.description}</p>
+                <h3 className="experience-date">{`${experience.start} - ${experience.end}`}</h3>
+                <p className="experience-description">{experience.description}</p>
                 {experience.tags && (
                     <div className="experience-tags">
                         {experience.tags.map((tagName) => {
