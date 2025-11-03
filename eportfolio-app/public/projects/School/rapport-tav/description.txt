@@ -1,1 +1,1 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet dictum, urna erat dictum erat, at cursus enim urna eu erat.
+This project was made for a school project featuring differents image processing algorithms coded from scratch in Matlab. I figured that a more immersive way of demonstrating my work was to make a website to try out the algorithms yourself. For this to work I had to host it on a AWS instance due to Matlab license issues.
