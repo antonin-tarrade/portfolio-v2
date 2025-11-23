@@ -120,9 +120,11 @@ const ProjectPage = () => {
                     }
 
                     {project.images.map(
-                            (i,index) => <img key={index} src={`/${i}`} className="showcase-item" alt="showcase img"/>
-                        )
-                    }
+                        (i, index) => 
+                            <div key={index} className="showcase-item">
+                                <img src={`/${i}`} className="image-footage" alt="showcase img"/>
+                            </div>
+                    )}
 
             </div>
         </div>

@@ -1,5 +1,25 @@
 [
   {
+    "title": "3d Meshes Compression",
+    "slug": "3d-meshes-compression",
+    "cover": "projects/School/3d-meshes-compression/cover.png",
+    "category": "School",
+    "images": [
+      "projects/School/3d-meshes-compression/images/vertex-split.png"
+    ],
+    "videos": [
+      "projects/School/3d-meshes-compression/videos/BUnny.mp4",
+      "projects/School/3d-meshes-compression/videos/Cow.mp4",
+      "projects/School/3d-meshes-compression/videos/suzanne.mp4"
+    ],
+    "description": "This project goal was to implement the fast SQUEEZE CPM algorithm in order to compress 3D meshes and dynamically stream the decompression with multiple Levels of Detail (LOD). This is widely used in 3D environments such as video games, in order to gain memory. If the camera is far, the object will be low-detailed, and the farther it approaches the object, the more detailed it will be.",
+    "tags": [
+      "python",
+      "numpy"
+    ],
+    "github": "https://github.com/antonin-tarrade/PR_CPM_Squeeze"
+  },
+  {
     "title": "3DFlight Software Visualization",
     "slug": "3dflight-software-visualization",
     "cover": "projects/Work/3DFlight-software-visualization/cover.png",
@@ -13,10 +33,10 @@
     ],
     "description": "Development of an interactive 3D application with the aim of promoting the role of a satellite flight software for external and internal communications. Simultaneously worked on a Proof of Concept for 3D post mortem visualisations of flight software interactions.",
     "tags": [
-      "Unity",
+      "unity",
       "cs",
       "blender",
-      "Gitlab",
+      "gitlab",
       "artifactory"
     ],
     "link": "https://cnes.fr/projets/kosmos"
@@ -27,7 +47,11 @@
     "cover": "projects/Games/breaking-news/cover.png",
     "category": "Games",
     "images": [],
-    "videos": [],
+    "videos": [
+      "projects/Games/breaking-news/videos/bn-final.mp4",
+      "projects/Games/breaking-news/videos/bn-intro.mp4",
+      "projects/Games/breaking-news/videos/bn-part1.mp4"
+    ],
     "description": "Make sure journalists don't bother you ever again on your vacation.\nThis was a gam jam entry for the GameDev.tv Halloween Jam 2025 wich got us ranked #5 out of more than 300 entries.",
     "tags": [
       "unity",
@@ -37,16 +61,16 @@
     "github": "https://github.com/guilhemmgt/gamedevtv-jam"
   },
   {
-    "title": "Graph Theory Project",
-    "slug": "graph-theory-project",
-    "cover": "projects/School/graph-theory-project/cover.png",
+    "title": "Graph Theory Projec",
+    "slug": "graph-theory-projec",
+    "cover": "projects/School/graph-theory-projec/cover.png",
     "category": "School",
     "images": [
-      "projects/School/graph-theory-project/images/graph-project-colored.png",
-      "projects/School/graph-theory-project/images/graph-project.png"
+      "projects/School/graph-theory-projec/images/graph-project-colored.png",
+      "projects/School/graph-theory-projec/images/graph-project.png"
     ],
     "videos": [
-      "projects/School/graph-theory-project/videos/graph-project.mp4"
+      "projects/School/graph-theory-projec/videos/graph-project.mp4"
     ],
     "description": "This project is made for the Graph theory course of my school. The goal is to visualize and annalyse the graph representing a cluster of satellites. For this project, the choice of the tools was free. I chose to use Unity in the goal of better representing the situation and expand my knowledge on the engine.",
     "tags": [
